@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  .kotak {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  
+  .kotak-biru {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+  }
+
+  .kotak-kuning {
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+  }
+  
+  .kotak-merah {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    color: white;
+  }
+
+  .kotak-hijau {
+    background-color: green;
+    width: 300px;
+    height: 100px;
+  }
+
+  .kotak-hitam {
+    background-color: black;
+    width: 600px;
+    height: 100px;
+    color: white;
+  }
+
+  .kotak-coklat {
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    color: white;
+  }
+  
+  .kotak-ungu {
+    background-color: purple;
+    width: 300px;
+    height: 200px;
+    color: white;
+  }
+
+  .kotak-oranye {
+    background-color: orange;
+    width: 300px;
+    height: 100px;
+  }
+
+  .kotak-putih {
+    background-color: white;
+    width: 150px;
+    height: 300px;
+  }
+
+  .kotak-pink {
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+  }
+
+  .kotak-cyan {
+    background-color: cyan;
+    width: 150px;
+    height: 200px;
+  }
+
+  .kotak-abu {
+    background-color: grey;
+    width: 300px;
+    height: 200px;
+  }
+
+  .flex-container{
+    display: flex;
+  }
