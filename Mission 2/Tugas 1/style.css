@@ -1,0 +1,112 @@
+body{
+  background-color: rgb(233, 227, 239);
+}
+
+.header .navbar {
+  background-color: rgb(241, 208, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.navbar-brand {
+    margin-top: 0px;
+    margin-left: -30px;
+}
+
+.product-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: #f0f0f0;
+  padding-left: 70px;
+}
+
+.product-card {
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Lebar produk 100% */
+  max-width: 300px; /* Maksimum lebar produk */
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.product-card img {
+  max-width: 100%;
+  transition: transform 0.3s;
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+
+.product-card .product-name {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #6c5ce7;
+}
+
+.product-card .product-price {
+  font-size: 16px;
+  color: #d63031;
+}
+
+.product-card .quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 5px; /* Renggangkan jarak antara elemen-elemen dalam quantity */
+}
+
+.product-card .quantity button {
+  background-color: #a29bfe;
+  padding: 8px 12px; 
+  margin-bottom: 10px;
+}
+
+.product-card .quantity input{
+  padding: 8px 12px; 
+  margin-bottom: 10px;
+  
+}
+
+.product-card .add-to-cart {
+  margin-top: 10px;
+  background-color: #00b894;
+  padding: 20px 20px; 
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.card-body total-text{
+  margin-right: 10px;
+}
+
+.card card-image{
+  width:10px;
+  height: 10px;
+}
+
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
